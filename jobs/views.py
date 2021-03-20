@@ -7,3 +7,6 @@ def home(request):
 
 def blog(request):
     return render(request, 'jobs/blog.html')
+
+def back(request):
+    return render(request, 'jobs/home.html')

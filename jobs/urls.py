@@ -19,4 +19,5 @@ from . import views
 urlpatterns = [
     path('', views.home, name='jobs'),
     path('blog', views.blog, name='blog'),
+    path('back', views.back, name='back')
 ]
